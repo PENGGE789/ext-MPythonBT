@@ -1,0 +1,32 @@
+{
+	"name": {
+		"zh-cn": "掌控板的蓝牙",
+		"en": "MPythonBT"
+	},
+	"description": {
+		"zh-cn": "掌控板的蓝牙功能",
+		"en": "MPythonBT"
+	},
+	"auther": "dapeng",
+	"email": "1373973759@qq.com",
+	"license": "MIT",
+	"isTest": true,
+	"isBoard": false,
+	"id": "MPythonBT",
+	"platform": ["win"],
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.1",
+			"board": ["esp32"],
+			"main": "main.ts",
+			"files": [
+				"_locales/zh-cn.json",
+				"_images/icon.svg",
+				"libraries/BluetoothSerial/BluetoothSerial.cpp",
+				"libraries/BluetoothSerial/BluetoothSerial.h"
+				
+			]
+		}
+	}
+}

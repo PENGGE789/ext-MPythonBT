@@ -1,0 +1,7 @@
+{
+    "MPythonBT.MPythonBTInit|block": "掌控板蓝牙 初始化 名字为 [NAME]",
+    "MPythonBT.MPythonBTAvailable|block": "掌控板蓝牙 有数据可读？",
+    "MPythonBT.MPythonBTRead|block": "掌控板蓝牙 读数据",
+    "MPythonBT.MPythonBTWrite|block": "掌控板蓝牙 写数据[STR]"
+    
+}
